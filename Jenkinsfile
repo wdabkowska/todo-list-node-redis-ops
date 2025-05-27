@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'TWOJ_ADRES_DO_REPO', branch: 'main'
+                git url: 'https://github.com/wdabkowska/todo-list-node-redis-ops.git', branch: 'main'
             }
         }
 
